@@ -20,7 +20,7 @@ Basic projects:
 
 ```
 {
-  presets: ['yoctol'],
+  presets: ['yoctol']
 }
 ```
 
@@ -28,7 +28,7 @@ For `koa` projects:
 
 ```
 {
-  presets: ['koa'],
+  presets: ['yoctol/koa']
 }
 ```
 
@@ -36,7 +36,7 @@ For `react` projects:
 
 ```
 {
-  presets: ['react'],
+  presets: ['yoctol/react']
 }
 ```
 
