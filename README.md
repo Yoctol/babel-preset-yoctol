@@ -42,7 +42,7 @@ For `react` projects:
 
 ## License
 
-MIT © [C.T. Lin](https://github.com/Yoctol/babel-preset-yoctol)
+MIT © [Yoctol](https://github.com/Yoctol/babel-preset-yoctol)
 
 [npm-image]: https://badge.fury.io/js/babel-preset-yoctol.svg
 [npm-url]: https://npmjs.org/package/babel-preset-yoctol
