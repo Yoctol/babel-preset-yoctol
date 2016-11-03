@@ -1,0 +1,49 @@
+{
+  "name": "babel-preset-yoctol",
+  "version": "0.1.0",
+  "description": "Yoctol specific configuration for Babel",
+  "license": "MIT",
+  "repository": "Yoctol/babel-preset-yoctol",
+  "author": {
+    "name": "C.T. Lin",
+    "email": "chentsulin@gmail.com",
+    "url": "github.com/Yoctol/babel-preset-yoctol"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js",
+    "koa.js"
+    "react.js"
+  ],
+  "keywords": [
+    "yoctol",
+    "babel",
+    "preset"
+  ],
+  "dependencies": {
+    "babel-plugin-dev-expression": "^0.2.1",
+    "babel-plugin-transform-remove-debugger": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-flow": "^1.0.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react-optimize": "^1.0.1",
+    "react-hot-loader": "^3.0.0-beta.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-yoctol-base": "^0.6.0",
+    "eslint-plugin-import": "^1.15.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "preversion": "npm run lint"
+  },
+  "devEngines": {
+    "node": "4.x || 5.x || 6.x || 7.x",
+    "npm": "2.x || 3.x"
+  }
+}
