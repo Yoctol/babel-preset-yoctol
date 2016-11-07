@@ -20,7 +20,7 @@ Basic projects:
 
 ```
 {
-  presets: ['yoctol'],
+  presets: ['yoctol']
 }
 ```
 
@@ -28,7 +28,7 @@ For `koa` projects:
 
 ```
 {
-  presets: ['koa'],
+  presets: ['yoctol/koa']
 }
 ```
 
@@ -36,13 +36,13 @@ For `react` projects:
 
 ```
 {
-  presets: ['react'],
+  presets: ['yoctol/react']
 }
 ```
 
 ## License
 
-MIT © [C.T. Lin](https://github.com/Yoctol/babel-preset-yoctol)
+MIT © [Yoctol](https://github.com/Yoctol/babel-preset-yoctol)
 
 [npm-image]: https://badge.fury.io/js/babel-preset-yoctol.svg
 [npm-url]: https://npmjs.org/package/babel-preset-yoctol
