@@ -24,10 +24,12 @@
   ],
   "dependencies": {
     "babel-plugin-dev-expression": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
     "babel-plugin-transform-remove-debugger": "^6.8.0",
     "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-env": "^1.1.8",
     "babel-preset-flow": "^1.0.0",
-    "babel-preset-latest": "^6.16.0",
     "babel-preset-react-optimize": "^1.0.1",
     "react-hot-loader": "^3.0.0-beta.6"
   },
@@ -44,6 +46,6 @@
   },
   "devEngines": {
     "node": "4.x || 5.x || 6.x || 7.x",
-    "npm": "2.x || 3.x"
+    "npm": "2.x || 3.x || 4.x"
   }
 }

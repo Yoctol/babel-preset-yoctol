@@ -5,12 +5,12 @@ module.exports = {
   env: {
     production: {
       presets: [
-        require('react-optimize'),
+        require('babel-preset-react-optimize'),
       ],
       plugins: [
         require('babel-plugin-transform-remove-debugger'),
         require('babel-plugin-dev-expression'),
-      ]
+      ],
     },
     development: {
       plugins: [
