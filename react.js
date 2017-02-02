@@ -1,6 +1,7 @@
 module.exports = {
   presets: [
     require('./'),
+    require('babel-preset-react'),
   ],
   env: {
     production: {
