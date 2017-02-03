@@ -1,10 +1,6 @@
 module.exports = {
   presets: [
-    [require('babel-preset-env'), {
-      targets: {
-        node: 4,
-      },
-    }],
+    require('babel-preset-latest'),
     require('babel-preset-flow'),
   ],
   plugins: [
