@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-yoctol",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Yoctol specific configuration for Babel",
   "license": "MIT",
   "repository": "Yoctol/babel-preset-yoctol",
