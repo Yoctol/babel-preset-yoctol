@@ -1,3 +1,8 @@
+0.4.0 / 2017-02-03
+==================
+- [new] yarn support
+- [fix] use `babel-preset-latest` instead of `babel-preset-env` for `uglifyjs` support.
+
 0.3.1 / 2017-02-02
 ==================
 - [fix] Added missing react preset
