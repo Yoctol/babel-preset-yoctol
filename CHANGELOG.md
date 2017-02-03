@@ -1,3 +1,7 @@
+0.4.1 / 2017-02-03
+==================
+- [fix] only enable `regenerator` in `transform-runtime`.
+
 0.4.0 / 2017-02-03
 ==================
 - [new] yarn support
