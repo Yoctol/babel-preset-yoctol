@@ -3,6 +3,12 @@ module.exports = {
     require('./'),
   ],
   plugins: [
-    require('babel-plugin-transform-runtime'),
+    [
+      require('babel-plugin-transform-runtime'),
+      {
+        polyfill: false,
+        regenerator: true,
+      },
+    ],
   ],
 };
