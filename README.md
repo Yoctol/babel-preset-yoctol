@@ -18,7 +18,7 @@ $ npm install babel-preset-yoctol
 
 Basic projects:
 
-```
+```json
 {
   presets: ['yoctol']
 }
@@ -26,7 +26,7 @@ Basic projects:
 
 For `koa` projects:
 
-```
+```json
 {
   presets: ['yoctol/koa']
 }
@@ -34,7 +34,7 @@ For `koa` projects:
 
 For `react` projects:
 
-```
+```json
 {
   presets: ['yoctol/react']
 }
