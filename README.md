@@ -20,7 +20,7 @@ Basic projects:
 
 ```json
 {
-  presets: ['yoctol']
+  "presets": ["yoctol"]
 }
 ```
 
@@ -28,7 +28,7 @@ For `koa` projects:
 
 ```json
 {
-  presets: ['yoctol/koa']
+  "presets": ["yoctol/koa"]
 }
 ```
 
@@ -36,7 +36,7 @@ For `react` projects:
 
 ```json
 {
-  presets: ['yoctol/react']
+  "presets": ["yoctol/react"]
 }
 ```
 
@@ -44,7 +44,7 @@ For `node >= 7.8` projects:
 
 ```json
 {
-  presets: ['yoctol/next']
+  "presets": ["yoctol/next"]
 }
 ```
 
