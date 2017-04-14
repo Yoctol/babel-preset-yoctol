@@ -40,6 +40,15 @@ For `react` projects:
 }
 ```
 
+For `node >= 7.8` projects:
+
+```json
+{
+  presets: ['yoctol/next']
+}
+```
+
+
 ## License
 
 MIT © [Yoctol](https://github.com/Yoctol/babel-preset-yoctol)
