@@ -2,7 +2,7 @@ module.exports = {
   presets: [
     ['env', {
       targets: {
-        node: '7.8',
+        node: 8,
       },
     }],
     require('babel-preset-flow'),
