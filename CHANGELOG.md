@@ -1,3 +1,7 @@
+0.6.0 / 2017-07-26
+==================
+- [changed] use node@8 in `next`
+
 0.5.1 / 2017-04-17
 ==================
 - [fix] Add next.js into npm files.
