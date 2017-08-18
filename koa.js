@@ -1,7 +1,5 @@
 module.exports = {
-  presets: [
-    require('./'),
-  ],
+  presets: [require('./')],
   plugins: [
     [
       require('babel-plugin-transform-runtime'),
