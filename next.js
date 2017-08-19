@@ -1,10 +1,13 @@
 module.exports = {
   presets: [
-    ['env', {
-      targets: {
-        node: 8,
+    [
+      require('babel-preset-env'),
+      {
+        targets: {
+          node: 8,
+        },
       },
-    }],
+    ],
     require('babel-preset-flow'),
   ],
   plugins: [
@@ -19,4 +22,3 @@ module.exports = {
     ],
   ],
 };
-
