@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-yoctol",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Yoctol specific configuration for Babel",
   "license": "MIT",
   "repository": "Yoctol/babel-preset-yoctol",
@@ -39,7 +39,7 @@
     "eslint": "^4.4.1",
     "eslint-config-yoctol-base": "^0.13.0",
     "eslint-plugin-import": "^2.7.0",
-    "react": "^15.6.1",
+    "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
   "scripts": {
