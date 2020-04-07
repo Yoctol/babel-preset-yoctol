@@ -1,3 +1,7 @@
+0.7.0 / 2018-07-15
+==================
+- [deps] Update react-hot-loader to v4.
+
 0.6.0 / 2017-07-26
 ==================
 - [changed] use node@8 in `next`
